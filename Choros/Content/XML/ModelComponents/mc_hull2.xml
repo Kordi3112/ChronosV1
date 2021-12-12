@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+    <Asset Type = "EngineXML.ModelComponentXML">
+      <Mesh>
+        <Scale>10</Scale>
+        <Name>mesh_hull2</Name>
+      </Mesh>
+      <Material>
+        <TextureName>hull2</TextureName>
+        <Color>1 0 0 1</Color> <!-- White-->
+      </Material>
+      <ShadowPolygons>
+        <Item>
+          <Vertices>
+            -1 -2
+            0 -2
+            0 -1
+          </Vertices>
+        </Item>
+        <Item>
+          <Vertices>
+            -1 2
+            0 1
+            0 2
+          </Vertices>
+        </Item>
+      </ShadowPolygons>
+    </Asset>
+</XnaContent>

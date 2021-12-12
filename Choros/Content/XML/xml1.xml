@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="EngineXML.XMLData1" >
+    <A>56</A>
+    <B>4.567</B>
+    <C>text</C>
+    <D>
+      45 66 
+      667 74 
+      4.2
+    </D>
+    <Text>
+      <Item>siema1</Item>
+      <Item>siema2</Item>
+      <Item>siema3</Item>
+      <Item>siema4</Item>
+    </Text>
+    <InnerClasses>
+      <Item>
+        <Val1>3</Val1>
+        <Val2>4</Val2>
+      </Item>
+      <Item>
+        <Val1>5</Val1>
+        <Val2>6</Val2>
+      </Item>
+    </InnerClasses>
+    <Vectors>
+      20 30
+      20 30
+    </Vectors>
+  </Asset>
+</XnaContent>

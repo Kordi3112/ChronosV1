@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="EngineXML.MeshesToLoad">
+    <MeshPacks>
+      <Item>
+        <FolderPath>XML/ModelComponents/Meshes/</FolderPath>
+        <Names>
+          <Item>mesh_laser1</Item>
+          <Item>mesh_hull2</Item>
+        </Names>
+      </Item>
+    </MeshPacks>
+  </Asset>
+</XnaContent>

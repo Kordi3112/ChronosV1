@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="EngineXML.HitboxXML" >
+    <Verticles>
+      -20 -10
+      10 -20
+      20 0
+      10 20
+      -20 10
+    </Verticles>
+  </Asset>
+</XnaContent>

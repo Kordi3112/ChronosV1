@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="EngineXML.ComponentsToLoad">
+    <ComponentPacks>
+      <Item>
+        <FolderPath>XML/ModelComponents/Cell/</FolderPath>
+        <Names>
+          <Item>mc_hull3</Item>
+          <Item>mc_model1</Item>
+          <Item>mc_model2</Item>
+          <Item>mc_model3</Item>
+          <Item>mc_laser1</Item>
+        </Names>
+      </Item>
+    </ComponentPacks>
+  </Asset>
+</XnaContent>

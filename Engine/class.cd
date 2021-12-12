@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Engine.Api.Pooler&lt;T&gt;" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAQCADAEBBgACRCANAQAWAgAAAAEoQAIAABAAAA=</HashCode>
+      <FileName>Api\Pooler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Engine.Control.CommandLine" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAACAAAAAAAAAAAAAAACACAAwAEAAAAAAAAAAQA=</HashCode>
+      <FileName>Control\CommandPanel\CommandLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.CommandPanel" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAxAAgAAAoAAggTAEgAgAACCDAAAEgEEASAAA4BACIA=</HashCode>
+      <FileName>Control\CommandPanel\CommandPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.Command" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Control\CommandPanel\Commands\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.Command_Move" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Control\CommandPanel\Commands\Command_Move.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.Command_Show" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Control\CommandPanel\Commands\Command_Show.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.Command_Tp" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Control\CommandPanel\Commands\Command_Tp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.UserSettings" Collapsed="true">
+    <Position X="23.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAEAAAgAAAAQAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Control\UserSettings\UserSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.Input.InputState" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Control\Input\InputState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.Input.KeysHolder" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIACAoAAAAgAAgEACAAAAAQAAAAAAAAQAQAAAA=</HashCode>
+      <FileName>Control\Input\KeysHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Control.Input.MouseHolder" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAQgAAAEASAAAAAABACAAEAAAAgAAgA=</HashCode>
+      <FileName>Control\Input\MouseHolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.GameManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAEAAAACIAAgDAAAMAAAAAEASAAAAAIAAGCAAABwY=</HashCode>
+      <FileName>Core\GameManager\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.Core.GTime" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgBAAAIAQAAQAAAAAEAAABAAAgAAAA=</HashCode>
+      <FileName>Core\GameManager\GTime.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.VideoManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAACEALgAAAEAAgAgAAWAAAAhCSACQEAFIAAYQAg=</HashCode>
+      <FileName>Core\VideoManager\VideoManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.Core.Instance.Mono" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAAAAAAAAAAAAAACAAAQAAEAAAAAAA=</HashCode>
+      <FileName>Core\Instance\Mono.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.Instance.MonoGameInstance" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAEAAAAAAQAwAAAAAAAAAAAAAAAAAAAIAAAABAAAQ=</HashCode>
+      <FileName>Core\Instance\MonoGameInstance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.Scene.GameScene" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAAAgAAAAAAAAAAAAAAAAEAAAACAACAgAA=</HashCode>
+      <FileName>Core\Scene\GameScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.Scene.HeadScene" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAAAgAAAAAAAAAAAAAAAAAAAAACAADAAAA=</HashCode>
+      <FileName>Core\Scene\HeadScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.Scene.MenuScene" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAAAgAAAAAAAAAAAAAAAAEAAAACAACAgAA=</HashCode>
+      <FileName>Core\Scene\MenuScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.Scene.Scene" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQCgAAAACAAAgAAAAAAAAQAAAAAAAEAAAACAAHAgAA=</HashCode>
+      <FileName>Core\Scene\Scene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Core.Scene.SceneManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAAAAAIAIAAAAQ4AAAAAAAAQABQAAA=</HashCode>
+      <FileName>Core\Scene\SceneManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.EngineMath.Circle" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAABgAAAEAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EngineMath\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.GJK" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAgAAAAAAAAAAAABAgAAAAAAgAAAEAAACAAAA=</HashCode>
+      <FileName>EngineMath\GJK\GJK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.Simplex" Collapsed="true">
+    <Position X="13.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAKAAAAAAABAAAAABAQAAAAQAgAAAAAAAABAAAA=</HashCode>
+      <FileName>EngineMath\GJK\Simplex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.Noise" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAECGAIAABAAAEAAAAACAAAAABABAAAA=</HashCode>
+      <FileName>EngineMath\Noise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.Perlin" Collapsed="true">
+    <Position X="20.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAYAAAAAAAAAgAgAAASAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>EngineMath\Perlin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.Polygon" Collapsed="true">
+    <Position X="22" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAEEIAAAAABAAA=</HashCode>
+      <FileName>EngineMath\Polygons\Polygon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.PolygonL" Collapsed="true">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>EngineMath\Polygons\PolygonL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.TriangleL" Collapsed="true">
+    <Position X="20.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>EngineMath\Polygons\TriangleL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.RayLine" Collapsed="true">
+    <Position X="15" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAgAQAAAAAAAAACAAABAAAEAAgAEBAAA=</HashCode>
+      <FileName>EngineMath\Ray.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.RaysAngleComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>EngineMath\RaysAngleComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.EngineMath.Tools" Collapsed="true">
+    <Position X="18.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIFAABCBAEAAAAhC1AEHBAACGCgEEEBEgABICgAAAAA=</HashCode>
+      <FileName>EngineMath\Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.GJK2.GJK_2" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBCgwAAAEAABCAAABAAAAAAgEiAAAAAAgAABQA=</HashCode>
+      <FileName>EngineMath\GJK\GJK2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.GJK2.Edge" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAEAAAAAgAQAAAAABAAA=</HashCode>
+      <FileName>EngineMath\GJK\GJK2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.GJK2.Simplex" Collapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAKAAAAAAABAAAAABAQAAAAQAgAAAAAAAABQAAA=</HashCode>
+      <FileName>EngineMath\GJK\GJK2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.GJK2.SimplexEdge" Collapsed="true">
+    <Position X="15" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAIAAgABAAAAAAAAAAAAAAEAAAAAAQABAAAA=</HashCode>
+      <FileName>EngineMath\GJK\GJK2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.EngineMath.GJK2.GJKTool" Collapsed="true">
+    <Position X="18.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAgAAAAAAAAQAAgAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>EngineMath\GJK\GJKTool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.FogManager" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAgAAEAIAAAAAAAAAAAAAAAICgAAgAAA=</HashCode>
+      <FileName>Graphics\Fog\FogManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.UserInterfaceComponent" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\UI\UserInterfaceComponents\UserInterfaceComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.Light.CircleLatern" Collapsed="true">
+    <Position X="3.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\Light\Latern\CircleLatern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.Light.Latern" Collapsed="true">
+    <Position X="3.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAGAAgEAAAAAQAAAAAAAEAAAAAgAAAAgA=</HashCode>
+      <FileName>Graphics\Light\Latern\Latern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.Light.LightManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAISBAAAYSkAEgCAoQMAAAhkAAhAAAAhIJAOAAFAgAA=</HashCode>
+      <FileName>Graphics\Light\LightManager\LightManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.Graphics.UI.Button" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAACAgAAQAAAAAAAIAAAAAgAAAAAgAAAAAA=</HashCode>
+      <FileName>Graphics\UI\UserInterfaceComponents\Buttons\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.UI.RectangleButton" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Graphics\UI\UserInterfaceComponents\Buttons\RectangleButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.UI.Panel" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAIgAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics\UI\UserInterfaceComponents\Panel\Panel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.UI.StatusBar" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Graphics\UI\UserInterfaceComponents\StatusBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Graphics.UI.UserInterfaceManager" Collapsed="true">
+    <Position X="22" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAIgAAAAAABAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Graphics\UI\UserInterfaceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Resource.EffectsPack" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQBAAAAAAIAAAAACAIAAAgAAAAAAACQAAAAA=</HashCode>
+      <FileName>Resource\EffectsPack\EffectsPack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Resource.ResourcePack&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAiAAAABAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Resource\ResourcePack\ResourcePack.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Board.Block" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAIAAAAoCAAAAAAAAAGAAAACAAAAAQAAggA=</HashCode>
+      <FileName>World\Board\Block\Block.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Board.BlocksPooler" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Board\Block\BlocksPooler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.BlocksTower" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAAA=</HashCode>
+      <FileName>World\Board\Block\BlocksTower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.BlocksLibrary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYgAAAEChAAAAAAAAAAAAAEAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>World\Board\BlocksLibrary\BlocksLibrary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Board.BlockCell" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAgA=</HashCode>
+      <FileName>World\Board\BlocksLibrary\BlockTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.BlockTemplate" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAQAABAAAA=</HashCode>
+      <FileName>World\Board\BlocksLibrary\BlockTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.Chunk" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARDMAAEACAAAhJghARAAAAAAAUAQABAABIAQEAAQgA=</HashCode>
+      <FileName>World\Board\Chunk\Chunk.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Board.ChunkParameters" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>World\Board\Chunk\ChunkParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.Dimension" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gASCQAAAACAAQyAAAAEEBABEAABAAAAAAAiGFEAAAAE=</HashCode>
+      <FileName>World\Board\Dimension\Dimension.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Board.Quarter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgDAAQAAKAEAgAAAQAADAAEAIBAQAAUIAgCAAAAAAA=</HashCode>
+      <FileName>World\Board\Dimension\Quarter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Board.CircleDimensionBrush" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAQ=</HashCode>
+      <FileName>World\Board\DimensionBrush\CircleDimensionBrush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.DimensionBrush" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>World\Board\DimensionBrush\DimensionBrush.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.TerraFormer" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAEAAAAA=</HashCode>
+      <FileName>World\Board\TerraFormer\TerraFormer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.TerraFormer1" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Board\TerraFormer\TerraFormer1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.TerraFormer2" Collapsed="true">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>World\Board\TerraFormer\TerraFormer2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Board.TerraFormerParams" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Board\TerraFormer\TerraFormerParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Map" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAACAAAgAAEBAAAAAAAAABAAAAAgACAgAgAAA=</HashCode>
+      <FileName>World\Board\Map\Map.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Camera" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAABAEAAAAASAEAAFAAAAAEBAACAAAAA=</HashCode>
+      <FileName>World\Camera\Camera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Hitbox" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAQIAABAAAAAAAEQAAAAAAAAJAAAYCAAAEAA=</HashCode>
+      <FileName>World\Objects\Hitbox\Hitbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.GameObject" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAACAAAgAACAAAAAAAAgEAAAAAAAACAUBAgAA=</HashCode>
+      <FileName>World\Objects\MainBody\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Engine.World.ObjectInfo" Collapsed="true">
+    <Position X="18.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAAAAAAAAEAAQAAACAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>World\Objects\MainBody\ObjectInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.PhysicalObject" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAERAAAAAAAAAIAgAAAAACAA=</HashCode>
+      <FileName>World\Objects\MainBody\PhysicalObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Material" Collapsed="true">
+    <Position X="18.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAgAAAAAA=</HashCode>
+      <FileName>World\Objects\Model\Material.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Mesh" Collapsed="true">
+    <Position X="20.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAMCAAGAABAQAAAAA=</HashCode>
+      <FileName>World\Objects\Model\Mesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Model2D" Collapsed="true">
+    <Position X="22" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQIAAAEAAAAAgABAAAAAAAAAAAACAAAAAACAAAAAAA=</HashCode>
+      <FileName>World\Objects\Model\Model2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.ComponentCell" Collapsed="true">
+    <Position X="18.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAgA=</HashCode>
+      <FileName>World\Objects\Model\ModelComponent\CellModelComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.CellModelComponent" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAgAAAAIAAAACAEAACAEgAAAAgABAAAA=</HashCode>
+      <FileName>World\Objects\Model\ModelComponent\CellModelComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.MeshModelComponent" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAABAAAAKAAEgAAAAAAAAAEAAAAIAEEAQAAAQAAAAA=</HashCode>
+      <FileName>World\Objects\Model\ModelComponent\MeshModelComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Engine.World.ModelComponent" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQABAAAAAAgAgAAAEAAAAQAAAAgAAEAAAAAQAAAAAA=</HashCode>
+      <FileName>World\Objects\Model\ModelComponent\ModelComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.ObjectApperanceInfo" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAAAAAAAggAAAAAAAAAAQAAAAAAAAAAAgAEQAAA=</HashCode>
+      <FileName>World\Objects\ObjectApperanceInfo\ObjectApperanceInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.ObjectsController" Collapsed="true">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABAAAA=</HashCode>
+      <FileName>World\Objects\ObjectsController\ObjectsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.ObjectsController1" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIgABBACAEQCIAAAAAAQAAQAAoAAAAQAAAAAQAAAg=</HashCode>
+      <FileName>World\Objects\ObjectsController\ObjectsController1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.ObjectsPooler" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAEAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>World\Objects\ObjectsPooler\ObjectsPooler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Rigidbody" Collapsed="true">
+    <Position X="20.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAoIAAAAAQAgAAAAAQAQAAAAAICAAAAAAAAAABAE=</HashCode>
+      <FileName>World\Objects\Rigidbody\Rigidbody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.RigidBodyParameters" Collapsed="true">
+    <Position X="22" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAEQAMCAAQAAAAAAEAIAAAABAQAAACQAAEAAKECIQ=</HashCode>
+      <FileName>World\Objects\Rigidbody\RigidBodyParameters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.Transform" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAAAAAAAAJY0wBAAAAAAAwAgAggAIAAAoIAAYAM=</HashCode>
+      <FileName>World\Transform\Transform.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Engine.World.TransformL" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Transform\TransformL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.TransformS" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAABYAAAAAAABBAAAAAggAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Transform\TransformS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.World.WorldManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EARCBIAAADAAIgIAAEAAAgxDEAAhgBACgAAACADASAA=</HashCode>
+      <FileName>World\WorldManager\WorldManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.World.Objects.Model.PolygonVT" Collapsed="true">
+    <Position X="25.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAgAAAAAAEAAAAAAACAAAAAAAAAAABA=</HashCode>
+      <FileName>World\Objects\Model\PolygonVT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Engine.Control.Input.KeyString" Collapsed="true">
+    <Position X="18.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Control\Input\KeysString.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.EngineMath.Interval" Collapsed="true">
+    <Position X="16.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAIAAAAAAAAAAMAACACAIAAAQqA=</HashCode>
+      <FileName>EngineMath\Interval.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.EngineMath.Line" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAgAgiAAAAAAAIAAAACAAAAAAAAACjA=</HashCode>
+      <FileName>EngineMath\Line.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Engine.EngineMath.LineCollisionInfo" Collapsed="true">
+    <Position X="22" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAQAACCAAAAAAACIEAAA=</HashCode>
+      <FileName>EngineMath\LineCollisionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.EngineMath.LineGeneralForm" Collapsed="true">
+    <Position X="23.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAoAEAAAA=</HashCode>
+      <FileName>EngineMath\LineGeneralForm.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.EngineMath.RectangleF" Collapsed="true">
+    <Position X="25.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAhAAAoAAEAAAHAEAAEQAAAQACCACCISgcZAA=</HashCode>
+      <FileName>EngineMath\Polygons\RectangleF.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.EngineMath.GJK2.SupportPoint" Collapsed="true">
+    <Position X="13.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EngineMath\GJK\GJK2.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.World.Board.BlockInfo" Collapsed="true">
+    <Position X="13.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABIgAAAEAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>World\Board\Dimension\BlockInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.World.TriangleIds" Collapsed="true">
+    <Position X="15" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAEAAAA=</HashCode>
+      <FileName>World\Objects\Model\TriangleIds.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.World.Force" Collapsed="true">
+    <Position X="15" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>World\Objects\Rigidbody\Force.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine.World.Objects.Model.VertexTCoords" Collapsed="true">
+    <Position X="16.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>World\Objects\Model\PolygonVT.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Engine.Api.IPollerObject" Collapsed="true">
+    <Position X="13.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAQAAgAA=</HashCode>
+      <FileName>Api\IPollerObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

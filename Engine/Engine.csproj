@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A91FC14-7497-4143-831D-8E02426632CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Engine</RootNamespace>
+    <AssemblyName>Engine</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.Portable.3.7.1.189\lib\portable-net45+win8+wpa81\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Content.Pipeline, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.Content.Pipeline.Portable.3.7.1.189\lib\portable-net45+win8+wpa81\MonoGame.Framework.Content.Pipeline.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\IPollerObject.cs" />
+    <Compile Include="Api\Pooler.cs" />
+    <Compile Include="Control\CommandPanel\CommandLine.cs" />
+    <Compile Include="Control\CommandPanel\CommandPanel.cs" />
+    <Compile Include="Control\CommandPanel\Commands\Command.cs" />
+    <Compile Include="Control\CommandPanel\Commands\Command_Move.cs" />
+    <Compile Include="Control\CommandPanel\Commands\Command_Show.cs" />
+    <Compile Include="Control\CommandPanel\Commands\Command_Tp.cs" />
+    <Compile Include="Control\Input\InputState.cs" />
+    <Compile Include="Control\Input\KeysHolder.cs" />
+    <Compile Include="Control\Input\KeysString.cs" />
+    <Compile Include="Control\Input\MouseHolder.cs" />
+    <Compile Include="Control\UserSettings\UserSettings.cs" />
+    <Compile Include="Control\UserSettings\UserSettingsControls.cs" />
+    <Compile Include="Control\UserSettings\UserSettingsDebug.cs" />
+    <Compile Include="Control\UserSettings\UserSettingsGeneral.cs" />
+    <Compile Include="Control\UserSettings\UserSettingsVideo.cs" />
+    <Compile Include="Core\GameManager\GameManager.cs" />
+    <Compile Include="Core\GameManager\GameManagerEvents.cs" />
+    <Compile Include="Core\GameManager\GTime.cs" />
+    <Compile Include="Core\Instance\Mono.cs" />
+    <Compile Include="Core\Instance\MonoGameInstance.cs" />
+    <Compile Include="Core\Scene\GameScene.cs" />
+    <Compile Include="Core\Scene\HeadScene.cs" />
+    <Compile Include="Core\Scene\MenuScene.cs" />
+    <Compile Include="Core\Scene\Scene.cs" />
+    <Compile Include="Core\Scene\SceneManager.cs" />
+    <Compile Include="Core\VideoManager\VideoManager.cs" />
+    <Compile Include="Core\VideoManager\VideoManagerTools.cs" />
+    <Compile Include="EngineMath\Circle.cs" />
+    <Compile Include="EngineMath\GJK\GJK.cs" />
+    <Compile Include="EngineMath\GJK\GJK2.cs" />
+    <Compile Include="EngineMath\GJK\GJKFunctions.cs" />
+    <Compile Include="EngineMath\GJK\GJKTool.cs" />
+    <Compile Include="EngineMath\GJK\Simplex.cs" />
+    <Compile Include="EngineMath\Interval.cs" />
+    <Compile Include="EngineMath\Line.cs" />
+    <Compile Include="EngineMath\LineCollisionInfo.cs" />
+    <Compile Include="EngineMath\LineGeneralForm.cs" />
+    <Compile Include="EngineMath\Noise.cs" />
+    <Compile Include="EngineMath\Perlin.cs" />
+    <Compile Include="EngineMath\Polygons\Polygon.cs" />
+    <Compile Include="EngineMath\Polygons\PolygonL.cs" />
+    <Compile Include="EngineMath\Ray.cs" />
+    <Compile Include="EngineMath\RaysAngleComparer.cs" />
+    <Compile Include="EngineMath\Polygons\RectangleF.cs" />
+    <Compile Include="EngineMath\Tools.cs" />
+    <Compile Include="EngineMath\Polygons\TriangleL.cs" />
+    <Compile Include="Graphics\Fog\FogManager.cs" />
+    <Compile Include="Graphics\Light\Latern\CircleLatern.cs" />
+    <Compile Include="Graphics\Light\Latern\Latern.cs" />
+    <Compile Include="Graphics\Light\LightManager\LightManager.cs" />
+    <Compile Include="Graphics\Light\LightManager\LightManagerFunctions.cs" />
+    <Compile Include="Graphics\Light\LightManager\LightManagerProperties.cs" />
+    <Compile Include="Graphics\UI\UserInterfaceComponents\Buttons\Button.cs" />
+    <Compile Include="Graphics\UI\UserInterfaceComponents\Buttons\RectangleButton.cs" />
+    <Compile Include="Graphics\UI\UserInterfaceComponents\Panel\Panel.cs" />
+    <Compile Include="Graphics\UI\UserInterfaceComponents\StatusBar.cs" />
+    <Compile Include="Graphics\UI\UserInterfaceComponents\UserInterfaceComponent.cs" />
+    <Compile Include="Graphics\UI\UserInterfaceManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource\EffectsPack\EffectsPack.cs" />
+    <Compile Include="Resource\ResourcePack\ResourcePack.cs" />
+    <Compile Include="World\Board\BlocksLibrary\BlocksLibrary.cs" />
+    <Compile Include="World\Board\BlocksLibrary\BlockTemplate.cs" />
+    <Compile Include="World\Board\Block\Block.cs" />
+    <Compile Include="World\Board\Block\BlockIds.cs" />
+    <Compile Include="World\Board\Block\BlocksPooler.cs" />
+    <Compile Include="World\Board\Block\BlocksTower.cs" />
+    <Compile Include="World\Board\Chunk\Chunk.cs" />
+    <Compile Include="World\Board\Chunk\ChunkParameters.cs" />
+    <Compile Include="World\Board\DimensionBrush\CircleDimensionBrush.cs" />
+    <Compile Include="World\Board\DimensionBrush\DimensionBrush.cs" />
+    <Compile Include="World\Board\Dimension\BlockInfo.cs" />
+    <Compile Include="World\Board\Dimension\Dimension.cs" />
+    <Compile Include="World\Board\Dimension\DimensionChunkArea.cs" />
+    <Compile Include="World\Board\Dimension\DimensionFunctions.cs" />
+    <Compile Include="World\Board\Dimension\Quarter.cs" />
+    <Compile Include="World\Board\Map\Map.cs" />
+    <Compile Include="World\Board\TerraFormer\TerraFormer.cs" />
+    <Compile Include="World\Board\TerraFormer\TerraFormer1.cs" />
+    <Compile Include="World\Board\TerraFormer\TerraFormer2.cs" />
+    <Compile Include="World\Board\TerraFormer\TerraFormerParams.cs" />
+    <Compile Include="World\Camera\Camera.cs" />
+    <Compile Include="World\Objects\Hitbox\Hitbox.cs" />
+    <Compile Include="World\Objects\MainBody\GameObject.cs" />
+    <Compile Include="World\Objects\MainBody\ObjectInfo.cs" />
+    <Compile Include="World\Objects\MainBody\PhysicalObject.cs" />
+    <Compile Include="World\Objects\Model\Material.cs" />
+    <Compile Include="World\Objects\Model\Mesh.cs" />
+    <Compile Include="World\Objects\Model\Model2D.cs" />
+    <Compile Include="World\Objects\Model\ModelComponent\MeshModelComponent.cs" />
+    <Compile Include="World\Objects\Model\ModelComponent\CellModelComponent.cs" />
+    <Compile Include="World\Objects\Model\ModelComponent\ModelComponent.cs" />
+    <Compile Include="World\Objects\Model\PolygonVT.cs" />
+    <Compile Include="World\Objects\Model\TriangleIds.cs" />
+    <Compile Include="World\Objects\ObjectApperanceInfo\ObjectApperanceInfo.cs" />
+    <Compile Include="World\Objects\ObjectsController\ObjectsController.cs" />
+    <Compile Include="World\Objects\ObjectsController\ObjectsController1.cs" />
+    <Compile Include="World\Objects\ObjectsController\ObjectsController1Functions.cs" />
+    <Compile Include="World\Objects\ObjectsPooler\ObjectsPooler.cs" />
+    <Compile Include="World\Objects\Rigidbody\Force.cs" />
+    <Compile Include="World\Objects\Rigidbody\Rigidbody.cs" />
+    <Compile Include="World\Objects\Rigidbody\RigidBodyParameters.cs" />
+    <Compile Include="World\Transform\Transform.cs" />
+    <Compile Include="World\Transform\TransformL.cs" />
+    <Compile Include="World\Transform\TransformS.cs" />
+    <Compile Include="World\WorldManager\WorldManager.cs" />
+    <Compile Include="World\WorldManager\WorldManagerFunctions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graphics\Animation\" />
+    <Folder Include="Graphics\Particles\" />
+    <Folder Include="Resource\EffectsPack\Shaders\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="World\WorldManager\PipeLine.txt" />
+    <Content Include="World\WorldManager\Pipeline.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="class.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EngineXML\EngineXML.csproj">
+      <Project>{057A1990-6607-4B51-9754-9E109FFBDD7F}</Project>
+      <Name>EngineXML</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

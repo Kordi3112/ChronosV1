@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/Basic/ColorEffect.fx</SourceFile>
+  <SourceTime>2021-05-15T15:42:16.2911121+02:00</SourceTime>
+  <DestFile>C:/Users/Kordian/source/repos/Choros/Choros/Content/bin/Windows/Content/Effects/Basic/ColorEffect.xnb</DestFile>
+  <DestTime>2021-09-20T05:08:10.0373801+02:00</DestTime>
+  <Importer>EffectImporter</Importer>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
+  <Processor>EffectProcessor</Processor>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>DebugMode</Key>
+    <Value>Auto</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

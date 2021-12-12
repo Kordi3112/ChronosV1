@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type = "EngineXML.CellModelComponentXML">
+    <TextureName>laser4</TextureName>
+    <Color>1 1 1 1</Color>
+    <CenterPosition>6 6</CenterPosition>
+    <CellSize>1 1</CellSize>
+    <CenterPointOffset>0 0</CenterPointOffset>
+    <DrawFrame>false</DrawFrame>
+    <FrameColor>1 1 1 1</FrameColor>
+    <ShadowPolygons></ShadowPolygons>
+  </Asset>
+</XnaContent>

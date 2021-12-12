@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="EngineXML.ObjectXML" >
+    <Components>
+      <Item>
+        <Tag>hull</Tag>
+        <Name>mc_hull3</Name>
+        <Rotation>0</Rotation>
+        <Position>0 0</Position>
+      </Item>
+      <Item>
+        <Tag>laserUp</Tag>
+        <Name>mc_laser1</Name>
+        <Rotation>0</Rotation>
+        <Position>20 -20</Position>
+      </Item>
+      <Item>
+        <Tag>laserDown</Tag>
+        <Name>mc_laser1</Name>
+        <Rotation>0.5</Rotation>
+        <Position>20 20</Position>
+      </Item>
+    </Components>
+    <HitboxScale>5</HitboxScale>
+    <Hitboxes>
+      <Item>
+        <Vertices>
+          -11.5 -6.5
+          -9.5 -6.5
+          -9.5 6.5
+          -11.5 6.5
+        </Vertices>
+      </Item>
+      <Item>
+        <Vertices>
+          6.5  -4.5
+          8.5 -4.5
+          11.5 -1.5
+          11.5 1.5
+          8.5 4.5
+          6.5 4.5
+        </Vertices>
+      </Item>
+      <Item>
+        <Vertices>
+          -9.5 -6.5
+          -5.5 -10.5
+          4.5   -10.5
+          6.5 -8.5
+          6.5 8.5
+          4.5 10.5
+          -5.5 10.5
+          -9.5 6.5
+        </Vertices>
+      </Item>
+    </Hitboxes>
+    <HitboxRadius>13.4</HitboxRadius>
+  </Asset>
+</XnaContent>

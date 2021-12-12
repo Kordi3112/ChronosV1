@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Meshes/mesh_hull2.xml</SourceFile>
+  <SourceTime>2021-10-07T02:12:02.0552995+02:00</SourceTime>
+  <DestFile>C:/Users/Kordian/source/repos/Choros/Choros/Content/bin/Windows/XML/ModelComponents/Meshes/mesh_hull2.xnb</DestFile>
+  <DestTime>2021-10-07T16:10:59.9929562+02:00</DestTime>
+  <Importer>XmlImporter</Importer>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
+  <Processor>PassThroughProcessor</Processor>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

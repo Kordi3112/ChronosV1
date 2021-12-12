@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Cursor1.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/Basic/ColorEffect.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/Basic/Combine1.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/Basic/Combine2.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/Basic/TextureEffect.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/Fog.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/Fog2.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/FogWave.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Effects/FogWave2.fx</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Font.spritefont</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/Fonts/Default.spritefont</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/RainbowTexture.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack1/Blue.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack1/Green.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack1/Orange.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack1/Purple.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack1/Red.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack1/Yellow.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack2/Blue.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack2/Green.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack2/Orange.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack2/Purple.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack2/Red.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/TexturePacks/TestPack2/Yellow.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/componentsToLoad.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/componentsToLoad2.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/meshesToLoad.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Cell/mc_hull3.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Cell/mc_laser1.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Cell/mc_model1.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Cell/mc_model2.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Cell/mc_model3.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/mc_laser1.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Meshes/mesh_hull2.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/ModelComponents/Meshes/mesh_laser1.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Objects/object1.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/objectsToLoad.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/objectsToLoad2.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/bullet1.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/engine1.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/hull1.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/hull2.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/hull3.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/laser2.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/laser3.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/laser4.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/model1.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/model2.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/model3.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/Textures/Texture1.png</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/texturesToLoad.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/xml1.xml</File>
+    <File>C:/Users/Kordian/source/repos/Choros/Choros/Content/XML/xml2.xml</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

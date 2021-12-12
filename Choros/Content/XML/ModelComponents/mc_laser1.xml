@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+    <Asset Type = "EngineXML.ModelComponentXML">
+      <Mesh>
+        <Scale>0.5</Scale>
+        <Name>mesh_laser1</Name>
+      </Mesh>
+      <Material>
+        <TextureName>laser3</TextureName>
+        <Color>1 1 1 1</Color> <!-- White-->
+      </Material>
+      <ShadowPolygons>
+      </ShadowPolygons>
+    </Asset>
+</XnaContent>

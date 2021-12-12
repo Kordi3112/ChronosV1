@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="EngineXML.TexturesToLoad">
+    <TexturePacks>
+      <Item>
+        <FolderPath>XML/Textures/</FolderPath>
+        <Names>
+          <Item>laser3</Item>
+          <Item>hull2</Item>
+        </Names>
+      </Item>
+    </TexturePacks>
+  </Asset>
+</XnaContent>

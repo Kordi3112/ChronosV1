@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:ns="Microsoft.Xna.Framework">
+  <Asset Type="EngineXML.ObjectsToLoad">
+    <ObjectPacks>
+      <Item>
+        <FolderPath>XML/Objects/</FolderPath>
+        <Names>
+          <Item>object1</Item>
+        </Names>
+      </Item>
+    </ObjectPacks>
+  </Asset>
+</XnaContent>
